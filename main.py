@@ -36,7 +36,7 @@ def load_file():
     # Đọc tệp CSV và thêm dữ liệu vào dictionary
     with open('fps.csv', newline='') as csvfile:
         read_csv = csv.reader(csvfile)
-        next(read_csv)  # Bỏ qua dòng tiêu đề
+        next(read_csv)  
         for row in read_csv:
             ten_file, fps = row
             fps_data[ten_file] = int(float(fps))  # Chuyển đổi FPS thành kiểu số thực
