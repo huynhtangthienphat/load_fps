@@ -39,7 +39,7 @@ def load_file():
         next(read_csv)  
         for row in read_csv:
             ten_file, fps = row
-            fps_data[ten_file] = int(float(fps))  # Chuyển đổi FPS thành kiểu số thực
+            fps_data[ten_file] = int(float(fps))  # Chuyển đổi FPS thành kiểu số nguyên
         #print(fps_data)
 
     # Lặp qua các tệp JSON và ghi dữ liệu FPS vào tệp JSON tương ứng
