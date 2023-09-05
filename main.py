@@ -2,7 +2,7 @@ import csv
 import json
 import os
 from collections import OrderedDict
-folder = 'test'
+folder = 'test' # thư mục chứa file json 
 map_folder='map'
 
 output_csv='fps.csv'
